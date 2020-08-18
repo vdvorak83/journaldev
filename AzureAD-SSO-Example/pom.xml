@@ -8,19 +8,19 @@
 	<name>adal4jsample</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-		<spring.version>3.0.5.RELEASE</spring.version>
+		<spring.version>4.3.15.RELEASE</spring.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.microsoft.azure</groupId>
 			<artifactId>adal4j</artifactId>
-			<version>1.1.1</version>
+			<version>1.2.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.nimbusds</groupId>
 			<artifactId>oauth2-oidc-sdk</artifactId>
-			<version>4.5</version>
+			<version>4.17</version>
 		</dependency>
 		<dependency>
 			<groupId>org.json</groupId>
