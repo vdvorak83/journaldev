@@ -87,13 +87,13 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-orm</artifactId>
-			<version>4.0.3.RELEASE</version>
+			<version>4.0.5.RELEASE</version>
 		</dependency>
 		<!-- Spring Web -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>4.0.3.RELEASE</version>
+			<version>4.0.5.RELEASE</version>
 		</dependency>
 		<!-- Required By Hibernate -->
 		<dependency>
