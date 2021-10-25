@@ -31,7 +31,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.32</version>
+			<version>8.0.27</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.myfaces.portlet-bridge</groupId>
@@ -92,7 +92,7 @@
 						<phase>integration-test</phase>
 						<configuration>
 							<tasks>
-								<copy file="target/${project.artifactId}.war" tofile="${deployFolder}/${project.artifactId}.war" />
+								<copy file="target/${project.artifactId}.war" tofile="${deployFolder}/${project.artifactId}.war"/>
 							</tasks>
 						</configuration>
 						<goals>
@@ -104,8 +104,8 @@
 						<phase>clean</phase>
 						<configuration>
 							<tasks>
-								<delete file="${deployFolder}/${project.artifactId}.war" />
-								<delete dir="${deployFolder}/${project.artifactId}" />
+								<delete file="${deployFolder}/${project.artifactId}.war"/>
+								<delete dir="${deployFolder}/${project.artifactId}"/>
 							</tasks>
 							<detail>true</detail>
 						</configuration>
