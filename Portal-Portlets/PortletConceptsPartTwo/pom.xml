@@ -27,7 +27,7 @@
 		<dependency>
 			<groupId>commons-fileupload</groupId>
 			<artifactId>commons-fileupload</artifactId>
-			<version>1.3</version>
+			<version>1.4</version>
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
@@ -72,7 +72,7 @@
 						<phase>integration-test</phase>
 						<configuration>
 							<tasks>
-								<copy file="target/${project.artifactId}.war" tofile="${deployFolder}/${project.artifactId}.war" />
+								<copy file="target/${project.artifactId}.war" tofile="${deployFolder}/${project.artifactId}.war"/>
 							</tasks>
 						</configuration>
 						<goals>
@@ -84,8 +84,8 @@
 						<phase>clean</phase>
 						<configuration>
 							<tasks>
-								<delete file="${deployFolder}/${project.artifactId}.war" />
-								<delete dir="${deployFolder}/${project.artifactId}" />
+								<delete file="${deployFolder}/${project.artifactId}.war"/>
+								<delete dir="${deployFolder}/${project.artifactId}"/>
 							</tasks>
 							<detail>true</detail>
 						</configuration>
