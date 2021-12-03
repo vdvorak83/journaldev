@@ -33,7 +33,7 @@
 		<dependency>
 			<groupId>com.sun.faces</groupId>
 			<artifactId>jsf-api</artifactId>
-			<version>2.2.4</version>
+			<version>2.2.20</version>
 		</dependency>
 		<!-- Primefaces Version 5 -->
 		<dependency>
