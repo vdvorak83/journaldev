@@ -10,7 +10,7 @@
 	<name>EmployeeRegistration-StrutsBridge</name>
 
 	<properties>
-		<struts2.version>2.3.16.3</struts2.version>
+		<struts2.version>2.5.28</struts2.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<deployFolder>D:/Apache Pluto/pluto-2.0.3/webapps</deployFolder>
 	</properties>
@@ -129,7 +129,7 @@
 						<phase>integration-test</phase>
 						<configuration>
 							<tasks>
-								<copy file="target/${project.artifactId}.war" tofile="${deployFolder}/${project.artifactId}.war" />
+								<copy file="target/${project.artifactId}.war" tofile="${deployFolder}/${project.artifactId}.war"/>
 							</tasks>
 						</configuration>
 						<goals>
@@ -141,8 +141,8 @@
 						<phase>clean</phase>
 						<configuration>
 							<tasks>
-								<delete file="${deployFolder}/${project.artifactId}.war" />
-								<delete dir="${deployFolder}/${project.artifactId}" />
+								<delete file="${deployFolder}/${project.artifactId}.war"/>
+								<delete dir="${deployFolder}/${project.artifactId}"/>
 							</tasks>
 							<detail>true</detail>
 						</configuration>
