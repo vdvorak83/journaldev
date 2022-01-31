@@ -17,7 +17,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.0.5</version>
+			<version>8.0.28</version>
 		</dependency>
 		<!-- EHCache Core APIs -->
 		<dependency>
@@ -29,7 +29,7 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-ehcache</artifactId>
-			<version>4.3.5.Final</version>
+			<version>5.4.24.Final</version>
 		</dependency>
 		<!-- EHCache uses slf4j for logging -->
 		<dependency>
