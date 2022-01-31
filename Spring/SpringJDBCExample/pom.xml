@@ -13,7 +13,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<!-- Spring -->
-		<spring-framework.version>4.0.2.RELEASE</spring-framework.version>
+		<spring-framework.version>5.2.19.RELEASE</spring-framework.version>
 
 		<!-- Logging -->
 		<logback.version>1.0.13</logback.version>
@@ -45,7 +45,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.0.5</version>
+			<version>8.0.28</version>
 		</dependency>
 
 		<!-- Logging with SLF4J & LogBack -->
