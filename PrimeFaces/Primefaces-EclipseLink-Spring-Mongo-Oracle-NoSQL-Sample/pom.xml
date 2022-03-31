@@ -86,7 +86,7 @@
 		<dependency>
 			<groupId>org.eclipse.persistence</groupId>
 			<artifactId>eclipselink</artifactId>
-			<version>2.6.0-M3</version>
+			<version>2.7.10</version>
 		</dependency>
 		<!-- Dependency for EclipseLink NoSQL Persistence API -->
 		<dependency>
