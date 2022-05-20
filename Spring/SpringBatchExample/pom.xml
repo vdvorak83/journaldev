@@ -9,7 +9,7 @@
 		<dependency>
 			<groupId>org.springframework.batch</groupId>
 			<artifactId>spring-batch-core</artifactId>
-			<version>3.0.5.RELEASE</version>
+			<version>4.3.6</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
